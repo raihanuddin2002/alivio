@@ -3,16 +3,24 @@
 =======================*/
 
 body {
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 1.7em !important;
 }
 
-.text-tomato {
-    color: #FB4C47 !important;
+.ff-georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.text-dark-green {
+    color: #01996D !important;
 }
 
 .text-gray {
-    color: gray;
+    color: #484848;
+}
+
+.text-shadow {
+    text-shadow: 0px 0px 3px #000000;
 }
 
 .text-blue-green {
@@ -20,33 +28,59 @@ body {
 }
 
 .active {
-    color: #FB4C47 !important;
+    color: #035755 !important;
 }
 
 
 /* Header section */
 
 .nav-item:hover .nav-link {
-    color: #FB4C47 !important;
-}
-
-.menu-btn:hover .menu-btn-text {
-    color: #fb4d47c5 !important;
+    color: #01996D !important;
 }
 
 
-/* =====================
-    Second section CSS
-=======================*/
+/* Hero section */
 
-.second-section-left {
-    background: url(../images/Path\ 17632nd.png);
+.hero-section {
+    height: 80vh;
+    background: url(../images/BGhero.png);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
 }
 
-.v-bg {
-    background: url(../images/About\ Usv.png);
+.hero-clone {
+    height: 80vh;
+    background: rgba(255, 255, 255, 0.123);
+}
+
+
+/* third section */
+
+.bg-h5-1 {
+    background: url(../images/01n01.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-size: contain;
+    background-position: top center;
+}
+
+.bg-h5-2 {
+    background: url(../images/02n02.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+}
+
+.bg-h5-3 {
+    background: url(../images/03num03.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+}
+
+
+/* fouth section */
+
+.fourth-section {
+    background: #245852;
 }
