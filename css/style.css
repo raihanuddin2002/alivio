@@ -1,0 +1,52 @@
+/* =====================
+    COMMON CSS
+=======================*/
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    line-height: 1.7em !important;
+}
+
+.text-tomato {
+    color: #FB4C47 !important;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-blue-green {
+    color: #035755 !important;
+}
+
+.active {
+    color: #FB4C47 !important;
+}
+
+
+/* Header section */
+
+.nav-item:hover .nav-link {
+    color: #FB4C47 !important;
+}
+
+.menu-btn:hover .menu-btn-text {
+    color: #fb4d47c5 !important;
+}
+
+
+/* =====================
+    Second section CSS
+=======================*/
+
+.second-section-left {
+    background: url(../images/Path\ 17632nd.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.v-bg {
+    background: url(../images/About\ Usv.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
